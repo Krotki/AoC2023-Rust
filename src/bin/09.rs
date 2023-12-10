@@ -1,4 +1,5 @@
-use itertools::{cloned, Itertools};
+use itertools::Itertools;
+
 advent_of_code::solution!(9);
 
 pub fn part_one(input: &str) -> Option<i32> {
